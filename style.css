@@ -1,14 +1,57 @@
-body {
-    background-color: #19820B;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    color: #291f1a;
-    font-weight: 300;
-    
-
+*{
+    box-sizing: border-box;
 }
 
-#main-nav {
+body{
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    color: #291f1a;
+    font-weight: 300;
+}
+
+#main-nav{
+    position: fixed;
+    width: 100%;
+    background-color: transparent;  
     
-    
+}
+
+#main-nav > ul{
+    margin: 20px;
+    float: right;
+}
+
+#main-nav > ul > li{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+}
+
+#main-nav > ul > li a{
+    font-size: 130%;
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+#main-nav > ul > li a:hover{
+    color:#291f1a;
+}
+
+#main-header {
+    background-image: url(../portfolio/img/img/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 50%;
+    background-position: center;
+ 
+}
+
+#main-header .main-header-content {
+    padding: 30vh;
+}
+
+#main-header .main-header-content h1 {
+    font-family: 'Roboto', sans-serif;
 }
