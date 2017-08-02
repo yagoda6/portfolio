@@ -55,3 +55,65 @@ body{
 #main-header .main-header-content h1 {
     font-family: 'Roboto', sans-serif;
 }
+
+    h1, h2, h3, h4, h5, h6 {
+        text-align: center;
+    }
+    
+    
+    section {
+        padding: 0 80px 100px;
+        width: 100%
+    }
+    
+    section h2 {
+        font-size: 30px;
+        font-weight: 300;
+        margin-top: 60px;
+        margin-bottom: 35px;
+    }
+
+#about {
+    background-color: #f9fcfe;
+}
+
+#about > figure {
+    width: 50%;
+    float: left;
+    margin: 0;
+    text-align: center;
+}
+
+#about > article {
+    width: 50%;
+    float: left;
+}
+
+#about > figure > img {
+    max-height: 350px;
+    max-width: 100%;
+    border: 15px; 
+    border-radius: 15px;
+}
+
+#jan-nowak {
+ max-height: 350px;
+    max-width: 100%;
+    border: 15px;
+}
+
+#skills #skills-icons figure {
+    display: inline-block;
+}
+
+#skills > p {
+    text-align: center;
+}
+
+#skills div#skills-icons {
+    text-align: center;
+}
+
+#skills #skills-icons figure img {
+    margin-bottom: 15 px;
+}
