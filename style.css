@@ -75,35 +75,50 @@ section h2 {
     margin-bottom: 35px;
 }
 
+section#about {
+    background-color: #f9fcfe;
+    padding: 0 80px;
+    width: 100%;
+}
+
 #about {
     background-color: #f9fcfe;
     text-align: center;
+    overflow: hidden;
 }
 
-#about-content {
-   display: inline-block;
+.text-about {
+    text-align: left;
+    width: 50%;
+}
+
+.text-about {
+   display: block;
     float: left;
 }
 
-#about > figure {
+#about figure {
     width: 50%;
     float: left;
     margin: 0;
     text-align: center;
+
     
 }
 
 #about > article {
     width: 50%;
-    float: left;
+    float: right;
 }
 
 #about > figure > img {
     max-height: 350px;
     max-width: 100%;
     border: 15px;
-    border-radius: 15px;
+    border-radius: 400px;
     display: inline-block;
+    width: 50%;
+    border-width: 50px;
 }
 
 #about-content {
@@ -112,7 +127,10 @@ section h2 {
     display: inline-block;
 }
 
-
+#umiejetnosci {
+    display: inline-block;
+    text-align: center;
+}
 
 }
 #jan-nowak {
@@ -120,14 +138,19 @@ section h2 {
     max-width: 100%;
     border: 15px;
 }
-.skills-icons-item {
-    text-align: center;
-}
 
-figure {
+.ikony > figure {
+    display: inline-block;
+}
+.skills-icons {
+    text-align: center;
     display: inline-block;
     margin: 30px;
 }
 #skills #skills-icons figure img {
     margin-bottom: 15px;
+}
+
+#icons {
+    display: inline-block;
 }
