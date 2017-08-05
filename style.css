@@ -1,41 +1,40 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     font-family: "Lato", sans-serif;
     color: #291f1a;
     font-weight: 300;
 }
 
-#main-nav{
+#main-nav {
     position: fixed;
     width: 100%;
-    background-color: transparent;  
-    
+    background-color: transparent;
 }
 
-#main-nav > ul{
+#main-nav>ul {
     margin: 20px;
     float: right;
 }
 
-#main-nav > ul > li{
+#main-nav>ul>li {
     display: inline-block;
     list-style: none;
     padding: 20px;
 }
 
-#main-nav > ul > li a{
+#main-nav>ul>li a {
     font-size: 130%;
     color: #fff;
     font-weight: 300;
     text-decoration: none;
 }
 
-#main-nav > ul > li a:hover{
-    color:#291f1a;
+#main-nav>ul>li a:hover {
+    color: #291f1a;
 }
 
 #main-header {
@@ -45,7 +44,6 @@ body{
     width: 100%;
     padding-bottom: 50%;
     background-position: center;
- 
 }
 
 #main-header .main-header-content {
@@ -56,25 +54,35 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-    h1, h2, h3, h4, h5, h6 {
-        text-align: center;
-    }
-    
-    
-    section {
-        padding: 0 80px 100px;
-        width: 100%
-    }
-    
-    section h2 {
-        font-size: 30px;
-        font-weight: 300;
-        margin-top: 60px;
-        margin-bottom: 35px;
-    }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+section {
+    padding: 0 80px 100px;
+    width: 100%
+}
+
+section h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
 
 #about {
     background-color: #f9fcfe;
+    text-align: center;
+}
+
+#about-content {
+   display: inline-block;
+    float: left;
 }
 
 #about > figure {
@@ -82,6 +90,7 @@ body{
     float: left;
     margin: 0;
     text-align: center;
+    
 }
 
 #about > article {
@@ -92,28 +101,33 @@ body{
 #about > figure > img {
     max-height: 350px;
     max-width: 100%;
-    border: 15px; 
-    border-radius: 15px;
-}
-
-#jan-nowak {
- max-height: 350px;
-    max-width: 100%;
     border: 15px;
-}
-
-#skills #skills-icons figure {
+    border-radius: 15px;
     display: inline-block;
 }
 
-#skills > p {
+#about-content {
+
+    height: 100%;
+    display: inline-block;
+}
+
+
+
+}
+#jan-nowak {
+    max-height: 350px;
+    max-width: 100%;
+    border: 15px;
+}
+.skills-icons-item {
     text-align: center;
 }
 
-#skills div#skills-icons {
-    text-align: center;
+figure {
+    display: inline-block;
+    margin: 30px;
 }
-
 #skills #skills-icons figure img {
-    margin-bottom: 15 px;
+    margin-bottom: 15px;
 }
