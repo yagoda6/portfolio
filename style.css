@@ -9,6 +9,8 @@ body {
     font-weight: 300;
 }
 
+
+
 #main-nav {
     position: fixed;
     width: 100%;
@@ -44,14 +46,23 @@ body {
     width: 100%;
     padding-bottom: 50%;
     background-position: center;
+    height: 50vh;
 }
 
 #main-header .main-header-content {
     padding: 30vh;
 }
 
+
 #main-header .main-header-content h1 {
     font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+#main-header .main-header-content h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 28px;
 }
 
 h1,
