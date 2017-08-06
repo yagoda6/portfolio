@@ -240,6 +240,43 @@ form>input:hover {
    
 }
 
+.single-portfolio-item-mask {
+    width: 100%;
+    height: 100%;
+    
+    position: absolute;
+    font-size: initial;
+    background-color: rgba(42, 61, 79, 0.8);
+    opacity: 0;
+    
+}
+
+.single-portfolio-item-mask:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+
+.single-portfolio-item-mask-content {
+    border: 1px solid #fff;
+    margin: 10px;
+    height: 330px;
+    position: relative;
+}
+
+.single-portfolio-item-mask-content-inner {
+    position: absolute;
+    top: 50%;
+    transform: transateY(-50%);
+    left: 0;
+    right: 0;
+    padding: 5px; 
+    color: #fff;
+    
+    
+}
+
 /*--responsywnosc--*/
 input#drop,
 label {
