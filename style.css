@@ -225,3 +225,12 @@ form > input:hover {
 #portfolio-item4 {
     background-image: url(img/img/portfolio4.jpg);
 }
+
+
+
+
+/*--responsywnosc--*/
+
+input#drop, label {
+    display: none;
+}
